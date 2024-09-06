@@ -1,7 +1,8 @@
 # Practice-Git
 A dummy repo to practice git. Feel free to do anything with it 😄.    
 
-Choose either the vscode or CLI approach. The vscode approach is more beginner friendly.     
+Choose either the vscode or CLI approach. The vscode approach is more beginner friendly.
+
 As time passes I'll add more git actions here. For now just focus on these basic steps:
 ## To stage, commit a file
 In VSCode:
