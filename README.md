@@ -30,7 +30,8 @@ In CLI:
 ```
 git push origin main
 ```
-This means that you're pushing your main branch to the origin (remote branch).  
+This means that you're pushing your main branch to the origin (remote branch). 
+**main** can be replaced by **master** depending on the name of your local branch. 
 
 
 <br>
