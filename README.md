@@ -21,14 +21,17 @@ git commit -m "Add pear"
 ## To push your local changes to the remote repo
 Rationale: Your local commits are only present in your local repo.    
 Hence we need to push the changes to the remote repo so that everyone else can see it.  
+The remote repo is called ***origin***.
 
 In VSCode:      
 1. Click on Sync changes. 
 
 In CLI:
 ```
-git push
+git push origin main
 ```
+This means that you're pushing your main branch to the origin (remote branch).  
+
 
 <br>
 ✨Done! Go to GitHub to see the latest changes.
