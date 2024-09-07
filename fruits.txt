@@ -14,3 +14,6 @@ mango
 apple
 dragonfruit
 peach
+
+Blue Fruits:
+blueberry
