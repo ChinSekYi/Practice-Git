@@ -8,3 +8,12 @@ strawberry
 blueberry
 raspberry
 blackberry
+
+Red fruits:
+strawberry
+raspberry
+cherry
+pomegranate
+cranberry
+red apple
+red grapes
