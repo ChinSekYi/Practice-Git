@@ -1,5 +1,6 @@
 See README.md for git instructions
 
+
 Fruits:
 apple
 pear
@@ -10,3 +11,6 @@ raspberry
 blackberry
 banana
 mango
+apple
+dragonfruit
+peach
