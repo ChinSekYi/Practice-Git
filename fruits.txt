@@ -7,3 +7,6 @@ strawberry
 grapes
 orange
 bananas
+apple
+dragonfruit
+peach
