@@ -6,3 +6,4 @@ banana
 strawberry
 grapes
 orange
+bananas
