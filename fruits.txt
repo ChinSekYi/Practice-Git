@@ -1,6 +1,6 @@
 See README.md for git instructions
 
-Non-tropical Fruits:
+Fruits:
 apple
 pear
 grapes
