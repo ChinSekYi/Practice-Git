@@ -16,4 +16,6 @@ dragonfruit
 peach
 
 Blue Fruits:
-blue fruit
+grape (certain varieties)
+blue grape
+plum (some varieties)
