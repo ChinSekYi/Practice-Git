@@ -8,3 +8,5 @@ strawberry
 blueberry
 raspberry
 blackberry
+banana
+mango
