@@ -1,12 +1,16 @@
 See README.md for git instructions
 
+
 Fruits:
-watermelon
-banana
-strawberry
+apple
+pear
 grapes
-orange
-bananas
+strawberry
+blueberry
+raspberry
+blackberry
+banana
+mango
 apple
 dragonfruit
 peach
