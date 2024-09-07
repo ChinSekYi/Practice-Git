@@ -17,3 +17,6 @@ pomegranate
 cranberry
 red apple
 red grapes
+tomato
+beetroot
+lingonberry
