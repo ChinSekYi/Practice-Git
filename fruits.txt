@@ -17,3 +17,6 @@ peach
 
 Blue Fruits:
 blue fruit
+blueberry
+elderberry
+blackcurrant
