@@ -4,7 +4,7 @@ A dummy repo to practice git. Feel free to do anything with it 😄.
 Choose either the vscode or CLI approach. The vscode approach is more beginner friendly.
 
 As time passes I'll add more git actions here. For now just focus on these basic steps:
-## To stage, commit a file
+# To stage, commit a file
 In VSCode:
 1. Add, delete, or change the fruits.
 2. Go to left side bar -> Source control
@@ -18,7 +18,7 @@ git add .            //stage all files
 git commit -m "Add pear"
 ```
 
-## To push your local changes to the remote repo
+# To push your local changes to the remote repo
 Rationale: Your local commits are only present in your local repo.    
 Hence we need to push the changes to the remote repo so that everyone else can see it.  
 The remote repo is called ***origin***.
@@ -35,7 +35,7 @@ This means that you're pushing your main branch to the origin (remote branch).
 
 
 
-## Branching
+# Branching
 Allows developers to work on different features without affecting the main branch. This ensures main branch is not affected.   
 
 In CLI:
@@ -56,7 +56,7 @@ git push origin branch-red-fruits
 Now check if your changes in branch-red-fruits are pushed to github.
 
 
-## Merging branch to main branch
+# Merging branch to main branch
 When you are done with your new feature in branch-red-fruits, you're ready to merge your code into the main branch, so that everyone else can see (and pull) it.
 
 Merge own branch to main branch.   
