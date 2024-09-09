@@ -84,6 +84,24 @@ So, first make sure you update your branch with the latest changes in the main b
 ```
 Resolve conflicts in Vscode -> choose which code changes to keep and discard. 
 
+# Updating your branch with the main branch
+```
+1. Git checkout main
+2. Git pull
+3. Git checkout yr_branch
+4. Git merge main
+5. Resolve conflicts manually in vscode (if any)
+6. Git push origin yr_branch
+7. Check github
+```
+
+# Merging branch to main
+After making edits in your branch,
+```
+1. stage, commit, git push origin yr_branch
+2. Go to github > yr_branch 
+3. Select Contribute > create pull request
+```
 
 <br>
 ✨Done! Go to GitHub to see the latest changes.
