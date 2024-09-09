@@ -16,6 +16,7 @@ dragonfruit
 peach
 durian
 watermelon
+pineapple
 
 Blue Fruits:
 blue fruit
@@ -30,3 +31,4 @@ blue fruit
 blueberry
 elderberry
 blackcurrant
+cherry
