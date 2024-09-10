@@ -102,6 +102,11 @@ After making edits in your branch,
 2. Go to github > yr_branch 
 3. Select Contribute > create pull request
 ```
-
+In GitHub > Yr_branch:   
+<img src="https://github.com/user-attachments/assets/e4f7c39e-74a3-4c91-8502-30acb2de9667" width="400" alt="Screenshot 2024-09-10 at 12 17 25 PM">   OR
+<img src="https://github.com/user-attachments/assets/b7c7a37a-38ef-4d6c-9b82-74baaa5e10f9" width="200" alt="Screenshot 2024-09-10 at 12 17 47 PM">    
 <br>
+THEN: Create Pull Request (PR)     
+<img src="https://github.com/user-attachments/assets/3262044a-5e70-443f-96dd-ad8c57168c23" width="500" alt="Screenshot 2024-09-10 at 12 17 35 PM">
+
 ✨Done! Go to GitHub to see the latest changes.
