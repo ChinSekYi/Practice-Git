@@ -1,10 +1,10 @@
 # Practice-Git
 A dummy repo to practice git. Feel free to do anything with it 😄.    
-
 Choose either the vscode or CLI approach. The vscode approach is more beginner friendly.
-
 As time passes I'll add more git actions here. For now just focus on these basic steps:
-# To stage, commit a file
+
+# Individual concepts
+## To stage, commit a file
 In VSCode:
 1. Add, delete, or change the fruits.
 2. Go to left side bar -> Source control
@@ -18,7 +18,7 @@ git add .            //stage all files
 git commit -m "Add pear"
 ```
 
-# To push your local changes to the remote repo
+## To push your local changes to the remote repo
 Rationale: Your local commits are only present in your local repo.    
 Hence we need to push the changes to the remote repo so that everyone else can see it.  
 The remote repo is called ***origin***.
@@ -35,7 +35,7 @@ This means that you're pushing your main branch to the origin (remote branch).
 
 
 
-# Branching
+## Branching
 Allows developers to work on different features without affecting the main branch. This ensures main branch is not affected.   
 
 In CLI:
@@ -56,7 +56,7 @@ git push origin branch-red-fruits
 Now check if your changes in branch-red-fruits are pushed to github.
 
 
-# Merging branch to main branch
+## Merging branch to main branch
 When you are done with your new feature in branch-red-fruits, you're ready to merge your code into the main branch, so that everyone else can see (and pull) it.
 
 Merge own branch to main branch.   
@@ -69,7 +69,7 @@ git push origin main # push main branch to remote repo
 ```
 Now check if you successfully merged yr branch in Github. 
 
-# Dealing with Merge conflicts
+## Dealing with Merge conflicts
 Merge conflicts arises when there are changes made in your branch and the main branch, and git do not know which one to keep.   
 
 So, first make sure you update your branch with the latest changes in the main branch.
@@ -84,7 +84,7 @@ So, first make sure you update your branch with the latest changes in the main b
 ```
 Resolve conflicts in Vscode -> choose which code changes to keep and discard. 
 
-# Updating your branch with the main branch
+## Updating your branch with the main branch
 ```
 1. Git checkout main
 2. Git pull
@@ -95,7 +95,7 @@ Resolve conflicts in Vscode -> choose which code changes to keep and discard.
 7. Check github
 ```
 
-# Merging branch to main
+## Merging branch to main
 After making edits in your branch,
 ```
 1. stage, commit, git push origin yr_branch
@@ -110,3 +110,28 @@ THEN: Create Pull Request (PR)
 <img src="https://github.com/user-attachments/assets/3262044a-5e70-443f-96dd-ad8c57168c23" width="500" alt="Screenshot 2024-09-10 at 12 17 35 PM">
 
 ✨Done! Go to GitHub to see the latest changes.
+
+
+<br>
+
+# Suggested workflow
+Step 1: Create branch from local<br>
+```
+git checkout branch_name
+```
+Step 2: Make code edits<br>
+Step 3: Once done, commit and push changes to remote branch<br>
+```
+git add .
+git commit -m "Commit message"
+git push origin branch_name
+```
+_Check that changes to the branch are shown on github_<br>
+Step 4: Make a Pull Request on Github -> refer to "Merging branch to main" section above. 
+After PR is approved by reviewers, your branch will be merged into the main branch. 
+
+Step 5: Delete remote and main branch_name (Optional)<br>
+```
+git branch -d branch_name
+git push origin --delete branch_name
+```
